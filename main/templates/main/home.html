@@ -1,11 +1,26 @@
-{% extends 'base.html' %}
-{% load static %}
+<!--{% load static %}-->
+<!DOCTYPE html>
+<html lang="en">
 
-{% block meta %}
-<title>Hello, world!</title>
-{% endblock meta %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% block content %}
-  <h1>Hello, world!</h1>
-  <p><img src="{% static 'img/django-logo-negative.svg' %}"></p>
-{% endblock content %}
+<!--  {% block meta %}-->
+<!--  {% endblock meta %}-->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body>
+  <center>
+  <h1 style="color:black">Welcome to my Website</h1>
+  <h2 style="color:black"><font face="comic sans ms">ERICK DELENIA (191810101079)</font><br></h2>
+  <h2 style="color:black"><font face="comic sans ms">FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM</font><br></h2>
+  <h2 style="color:black"><font face="comic sans ms">UNIVERSITAS JEMBER</font><br></h2>
+  <p><img src="{% static 'img/aku.jpg' %}" style="height:7cm"></p>
+  </center>
+
+</body>
+
+</html>
